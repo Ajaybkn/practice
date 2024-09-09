@@ -11,3 +11,11 @@ console.log(add(2,3))
  }
 
  console.log(multiply(2,3))
+
+
+ const areaCircle=(base:number,height:number):number=>{
+    return 0.5*base*height
+ }
+
+
+ console.log(areaCircle(16,25))
