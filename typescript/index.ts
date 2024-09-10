@@ -13,41 +13,31 @@
 //  console.log(multiply(2,3))
 
 
-//  const areaCircle=(base:number,height:number):number=>{
+//  const areaCircle=(base:number,height:number=40):number=>{
 //     return 0.5*base*height
 //  }
 
 
-//  console.log(areaCircle(16,25))
+//  console.log(areaCircle(16))
 
 
-// type Student={
-//    name:string,
-//    age:number,
-//    greet:() => void
-// }
+// const numbers:number[]=[1,2,3,4,5,6,7,8,9,10]
 
-// let student:Student ={
-//    name:'ajay',
-//    age:30,
-//    greet():void{
-//        console.log("fhiekds")
-//    }
-// }
+//     // numbers.map((num)=>num*2)
 
-// student.greet()
-//enums
-// enum Role{
-//    admin,manager,super_admin
-// }
+// console.log(
+//     numbers.filter((num)=>num%2==0))
 
-// console.log(Role[2])
+type Obj={
+    name:string,
+    age:number,
+    city?:string,
+    isMarried:boolean,
+}
+let obj:Obj={
+    name:'John',
+    age:30,
+    city:'New York',
+    isMarried:false,
 
-//tuples-->>
-
-type info=readonly [string,number,boolean]
-
-const person:info=['ajay',33,true]
-
-
-console.log(person)
+}
